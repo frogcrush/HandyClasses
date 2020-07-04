@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.Base", "TylorsTech.HandyClasses.Base\TylorsTech.HandyClasses.Base.csproj", "{76150788-EFE8-4259-BEEE-A0E1D63F63DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.WPF", "TylorsTech.HandyClasses.WPF\TylorsTech.HandyClasses.WPF.csproj", "{962B7C31-3521-4E8F-A5D3-295BE32842A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76150788-EFE8-4259-BEEE-A0E1D63F63DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76150788-EFE8-4259-BEEE-A0E1D63F63DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76150788-EFE8-4259-BEEE-A0E1D63F63DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76150788-EFE8-4259-BEEE-A0E1D63F63DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F062D1D3-576F-4FB0-B5A3-A752EC71AD5B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0-alpha</Version>
+    <Authors>Tylor Pater</Authors>
+    <Product>TylorsTech.HandyClasses</Product>
+    <Description>Base package containing commonly used C# classes, all in one convenient package!</Description>
+    <Copyright>(C) 2020 Tylor Pater</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/frogcrush/HandyClasses</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/frogcrush/HandyClasses</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Initial release of a couple handy classes</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

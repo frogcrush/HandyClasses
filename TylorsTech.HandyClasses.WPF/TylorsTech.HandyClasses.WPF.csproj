@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Version>1.0.0-alpha</Version>
+    <Authors>Tylor Pater</Authors>
+    <Company>Tylor Pater</Company>
+    <Product>TylorsTech.HandyClasses</Product>
+    <Description>WPF-specific library containing commonly used C# classes, in a convenient package!</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/frogcrush/HandyClasses</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/frogcrush/HandyClasses</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Initial release of a couple handy classes</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TylorsTech.HandyClasses.Base\TylorsTech.HandyClasses.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
