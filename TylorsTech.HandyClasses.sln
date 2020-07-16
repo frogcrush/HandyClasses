@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylorsTech.HandyClasses.Bas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylorsTech.HandyClasses.WPF", "TylorsTech.HandyClasses.WPF\TylorsTech.HandyClasses.WPF.csproj", "{962B7C31-3521-4E8F-A5D3-295BE32842A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.WPF.Dialogs", "TylorsTech.HandyClasses.WPF.Dialogs\TylorsTech.HandyClasses.WPF.Dialogs.csproj", "{363DEFF5-71FC-4FCE-A57B-6C802137F501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylorsTech.HandyClasses.WPF.Dialogs", "TylorsTech.HandyClasses.WPF.Dialogs\TylorsTech.HandyClasses.WPF.Dialogs.csproj", "{363DEFF5-71FC-4FCE-A57B-6C802137F501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F445D6C-FA74-496A-A3E8-3CFB7A4CAE5F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
