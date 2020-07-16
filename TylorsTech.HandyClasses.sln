@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.Base", "TylorsTech.HandyClasses.Base\TylorsTech.HandyClasses.Base.csproj", "{76150788-EFE8-4259-BEEE-A0E1D63F63DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylorsTech.HandyClasses.Base", "TylorsTech.HandyClasses.Base\TylorsTech.HandyClasses.Base.csproj", "{76150788-EFE8-4259-BEEE-A0E1D63F63DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.WPF", "TylorsTech.HandyClasses.WPF\TylorsTech.HandyClasses.WPF.csproj", "{962B7C31-3521-4E8F-A5D3-295BE32842A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylorsTech.HandyClasses.WPF", "TylorsTech.HandyClasses.WPF\TylorsTech.HandyClasses.WPF.csproj", "{962B7C31-3521-4E8F-A5D3-295BE32842A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylorsTech.HandyClasses.WPF.Dialogs", "TylorsTech.HandyClasses.WPF.Dialogs\TylorsTech.HandyClasses.WPF.Dialogs.csproj", "{363DEFF5-71FC-4FCE-A57B-6C802137F501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962B7C31-3521-4E8F-A5D3-295BE32842A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363DEFF5-71FC-4FCE-A57B-6C802137F501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363DEFF5-71FC-4FCE-A57B-6C802137F501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363DEFF5-71FC-4FCE-A57B-6C802137F501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363DEFF5-71FC-4FCE-A57B-6C802137F501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
