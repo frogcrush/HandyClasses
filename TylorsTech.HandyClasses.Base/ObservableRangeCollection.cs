@@ -9,13 +9,15 @@
     using System.ComponentModel;
     using System.Diagnostics;
 
+    using TylorsTech.HandyClasses.Base;
+
     /// <summary>
     /// INCLUDED IN TYLORSTECH.HANDYCLASSES.BASE; THIS WILL BE DEPRECATED WHEN OFFICIALLY AVAILABLE THROUGH .NET
     /// Implementation of a dynamic data collection based on generic Collection&lt;T&gt;,
     /// implementing INotifyCollectionChanged to notify listeners
     /// when items get added, removed or the whole list is refreshed.
     /// </summary>
-    public class ObservableRangeCollection<T> : ObservableCollection<T>
+    public class ObservableRangeCollection<T> : ObservableCollection<T>, IObservableRangeCollection<T>
     {
         //------------------------------------------------------
         //

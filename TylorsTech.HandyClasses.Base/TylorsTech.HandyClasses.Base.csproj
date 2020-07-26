@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.0.2-alpha</Version>
+    <Version>1.0.3-alpha</Version>
     <Authors>Tylor Pater</Authors>
     <Product>TylorsTech.HandyClasses</Product>
     <Description>Base package containing commonly used C# classes, all in one convenient package!</Description>
@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/frogcrush/HandyClasses</PackageProjectUrl>
     <RepositoryUrl>https://github.com/frogcrush/HandyClasses</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <PackageReleaseNotes>Now includes a few commonly used C# extension methods for common C# types!</PackageReleaseNotes>
+    <PackageReleaseNotes>Make ObservableRangeCollection inherit from IObservableRangeCollection, which allows you to use Dependancy Injection to allow you to use either WpfObservableRangeCollection from HandyClasses.WPF, or the normal ObservableRangeCollection for other .NET platforms.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
