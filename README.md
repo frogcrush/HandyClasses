@@ -1,3 +1,6 @@
+
+DEPRECATED - check out [Meteion WPF Toolkit](https://github.com/Meteion-Software/Meteion.Toolkit.WPF) instead.
+
 # HandyClasses
 
 This library is a small collection of handy, common classes for use with .NET projects. 
